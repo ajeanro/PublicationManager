@@ -1,0 +1,12 @@
+﻿@model Jr.PublicationLibrary.Magasine
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>
+<h2>@Model.Title</h2>
+<p>This is your @Model.EditionMonth @Model.Year @Model.Title edition.
+    Get your subscription this week at a discounted price of only
+    @Model.SuscriptionPrice bucks a year.</p>
